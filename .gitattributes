@@ -1,0 +1,14 @@
+# Language detection rules
+# See https://github.com/github/linguist
+*.json linguist-detectable=false
+*.gif binary
+examples/site/** linguist-vendored
+vendor/* linguist-vendored
+*.woff2 binary
+*.min.js linguist-generated
+examples/site/* linguist-vendored
+src/**/*.ts linguist-detectable
+
+src/**/*.tsx linguist-detectable
+
+Cargo.lock linguist-generated
