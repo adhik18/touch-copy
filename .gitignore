@@ -1,0 +1,7 @@
+coverage/
+npm-debug.log*
+build/
+.env.local
+.pnpm-store/
+.env
+node_modules/
